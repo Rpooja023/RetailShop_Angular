@@ -1,0 +1,22 @@
+
+
+<div class="sidebar">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <img src="assets/onlineShop-removebg-preview.png" alt="shopping" > 
+    <a href="/">Home</a>
+    <a routerLink="/products">Products</a>
+    <a routerLink="/orders">Orders</a>
+    <a routerLink="/cart">Cart</a>
+    <!-- <a href="">Membership</a>
+    <a href="">Settings</a> -->
+
+</div>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="topnav">
+    <input type="text" placeholder="Search..">
+    <button><i class="fa fa-search"></i></button>
+</div>
+
+<router-outlet (activate)="homeroute()"></router-outlet>
+<img class="animation" *ngIf="logo" src="assets/shop4.gif" alt="shop">
+<h1 *ngIf="logo">Shop your favourite things here!</h1>

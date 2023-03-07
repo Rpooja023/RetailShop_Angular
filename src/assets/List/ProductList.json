@@ -1,0 +1,39 @@
+[
+    {
+   "Name" : "Coca Cola",
+   "Quantity" : "1 Litre",
+   "Price" : "Rs.69",
+   "Image" : "assets/CocaCola.png"
+    },
+    {
+      "Name" : "Pepsi",
+      "Quantity" : "1 Litre",
+      "Price" : "Rs.68",
+      "Image" : "assets/Pepsi.png"
+    },
+    {
+      "Name" : "Sprite",
+      "Quantity" : "500ml",
+      "Price" : "Rs.30",
+      "Image" : "assets/Sprite.png"
+    },
+    {
+      "Name" : "Diet Coke",
+      "Quantity" : "250ml",
+      "Price" : "Rs.25",
+      "Image" : "assets/DietCoke.png"
+    },
+    {
+      "Name" : "Diet Coke",
+      "Quantity" : "250ml",
+      "Price" : "Rs.25",
+      "Image" : "assets/DietCoke.png"
+    },
+    {
+      "Name" : "Diet Coke",
+      "Quantity" : "250ml",
+      "Price" : "Rs.25",
+      "Image" : "assets/DietCoke.png"
+    }
+
+  ]

@@ -1,0 +1,15 @@
+
+    <div class="grid-container">
+        <ng-container *ngFor="let items of ProductList">
+            <div class="grid-item">
+                <img src="{{items.Image}}"/>
+                <hr>
+                <div class ="product-details">
+                    <div class = "product-name">{{items.Name}}</div>
+                    <div class = "product-quantity">{{items.Quantity}}</div>
+                    <div class = "product-price">{{items.Price}}</div>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+        </ng-container>
+    </div>
